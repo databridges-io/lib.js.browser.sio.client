@@ -1,0 +1,61 @@
+{
+  "name": "databridges-sio-js-lib",
+  "version": "2.0.2",
+  "description": "DataBridges JavaScript client Library for browsers. Register at https://www.databridges.io",
+  "keywords": [
+    "optomate",
+    "databridges",
+    "pubsub",
+    "rpc",
+    "websocket",
+    "socket.io",
+    "ws",
+    "events",
+    "realtime",
+    "real-time"
+  ],
+  "private": false,
+  "main": "src/dBridges.js",
+  "author": {
+    "name": "Optomate Technologies Private Limited.",
+    "email": "tech@optomate.io",
+    "url": "https://www.optomate.io"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/databridges-io/lib.js.browser.sio.client.git"
+  },
+  "homepage": "https://github.com/databridges-io/lib.js.browser.sio.client",
+  "deprecated": false,
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "socket.io-client": "^3.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-json": "^4.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "regenerator-runtime": "^0.13.7",
+    "rollup": "^2.52.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
